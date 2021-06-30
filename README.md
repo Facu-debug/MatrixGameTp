@@ -46,3 +46,4 @@ pierde una pila.
 
 Créditos:
 - Adaptación del juego Mathrix - piecepack game creado por Clark D. Rodeffer.
+- Uso de la libreria rlutil.h creada por Tapio Vierros
