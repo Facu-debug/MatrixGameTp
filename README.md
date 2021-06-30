@@ -36,8 +36,10 @@ El juego debe intentar resolver la ecuación teniendo en cuenta los valores ingr
 usuario, partiendo de la celda seleccionada y utilizando las celdas adyacentes que se
 encuentren en la dirección elegida.
 Toda ecuación se formula de la siguiente manera: A ± B = C
+
 Como la ecuación es correcta, el usuario obtendrá como puntaje de esa ronda el equivalente
 a la suma de los tres números que intervinieron en la cuenta.
+
 A continuación, el juego debe bloquear las celdas utilizadas y avanzar a la siguiente ronda.
 En caso de que se intente realizar una ecuación cuyo resultado no es correcto el usuario
 pierde una pila.
