@@ -10,17 +10,26 @@ En el transcurso de una ronda, el jugador debe ingresar la coordenada del primer
 con el que desea elaborar una ecuación.
 
 Luego de este paso, debe elegir el operador matemático necesario para la ecuación:
+
 -Suma +
+
 -Resta -
+
 -Multiplicacion *
+
 -Division /
+
 -Resto %
 
 Por último, debe elegir la dirección hacia donde se resuelve la ecuación. Los valores pueden
 ser:
+
 -Arriba 8
+
 -Abajo 2
+
 -Izquierda 4
+
 -Derecha 6
 
 El juego debe intentar resolver la ecuación teniendo en cuenta los valores ingresados por el
