@@ -44,6 +44,8 @@ A continuación, el juego debe bloquear las celdas utilizadas y avanzar a la sig
 En caso de que se intente realizar una ecuación cuyo resultado no es correcto el usuario
 pierde una pila.
 
+VER:  main.cpp, funciones.cpp, operaciones.cpp, funciones.h
+
 Créditos:
 - Adaptación del juego Mathrix - piecepack game creado por Clark D. Rodeffer.
 - Uso de la libreria rlutil.h creada por Tapio Vierros
