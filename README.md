@@ -44,6 +44,7 @@ A continuación, el juego debe bloquear las celdas utilizadas y avanzar a la sig
 En caso de que se intente realizar una ecuación cuyo resultado no es correcto el usuario
 pierde una pila.
 
+EJECUTAR:  bin/juego.exe
 VER:  main.cpp, funciones.cpp, operaciones.cpp, funciones.h
 
 Créditos:
