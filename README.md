@@ -5,7 +5,7 @@ Mathrix es un juego individual donde ponés a prueba tu destreza matemática. Co
 una matriz de 6x6 que se completa con números del 0 al 9 ubicados aleatoriamente.
 
 El objetivo general del juego es sumar la mayor cantidad de puntos en el transcurso de las
-rondas hasta quedarse sin pilas. El juego comienza con un total de tres pilas.
+rondas hasta quedarse sin pilas (vidas). El juego comienza con un total de tres pilas.
 En el transcurso de una ronda, el jugador debe ingresar la coordenada del primer número
 con el que desea elaborar una ecuación.
 
