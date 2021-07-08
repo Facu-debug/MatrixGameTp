@@ -1,5 +1,5 @@
 # MatrixGameTp
-Este es un juego matematico realizado como trabajo practico de fin del primer curso de Laboratorio, en C++. para la UTN. 
+Este es un juego matematico para consola realizado como trabajo practico de fin del primer curso de Laboratorio, en C++. para la UTN. 
 
 Mathrix es un juego individual donde ponés a prueba tu destreza matemática. Consiste en
 una matriz de 6x6 que se completa con números del 0 al 9 ubicados aleatoriamente.
@@ -35,7 +35,7 @@ ser:
 El juego debe intentar resolver la ecuación teniendo en cuenta los valores ingresados por el
 usuario, partiendo de la celda seleccionada y utilizando las celdas adyacentes que se
 encuentren en la dirección elegida.
-Toda ecuación se formula de la siguiente manera: A ± B = C
+Toda ecuación se puede formular de la siguiente manera: A ± B = C (la suma y resta son de ejemplo).
 
 Como la ecuación es correcta, el usuario obtendrá como puntaje de esa ronda el equivalente
 a la suma de los tres números que intervinieron en la cuenta.
