@@ -7,11 +7,12 @@ using namespace std; //su uso es por cuestion de comodidad en este programa
 #include <stdlib.h>
 
 
-
 //ESTRUCTURA GENERAL: 
 
 int main()
 {
+    setlocale(LC_ALL,"spanish");
+    
     //Variables:
     const int fil = 6;
     const int col = 6;
@@ -26,7 +27,6 @@ int main()
     char calcuVec[10][50];
     int rondas[10];
     int ptj[10];
-    setlocale(LC_ALL,"spanish");
 
     //Variables del juego:
     bool resultado;
