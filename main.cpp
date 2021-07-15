@@ -123,7 +123,6 @@ int main()
                     cout << "Ingresar direccion a jugar: ";
                     cin >> direccion;
 
-                    //consigna de parcial cantOperadores
                     for(int i=0; i<5; i++)
                     {
                         if(operador_mat == Operadores[i])
@@ -136,8 +135,8 @@ int main()
                     resultado = Operacion (operador_mat, matriz, num_fila, num_col, direccion); //nos dice si la operacion suma o no puntos
                     operacionMatriz (matriz, matrizBool, num_fila, num_col, direccion, resultado, pilas, puntaje); //modifica la matriz del juego
                     posPuntaje(nomPtjMax, calcuVec, nombre, rondas, calculador, puntaje, cont, inicio, ptj); //carga los puntajes para estadisticas
-
                     cout << endl;
+                    
                     if(resultado)
                     {
                         cout << "Correcto! sumaste puntos en esta ronda... :D\n";
@@ -177,7 +176,6 @@ int main()
                     cout << "Ingresar direccion a jugar: ";
                     cin >> direccion;
 
-                    //consigna parcial cantOperadores
                     for(int i=0; i<5; i++)
                     {
                         if(operador_mat == Operadores[i])
@@ -214,11 +212,9 @@ int main()
                     rlutil::cls();
                 }
 
-            }
-            while(pilas > 0);
+            }while(pilas > 0);
 
-            //muestro las consignas de parcial
-
+            //muestro resultados de partida:
             mostrarRonda(nombre, puntaje, cantOperador);
             rlutil::anykey();
             rlutil::cls();
@@ -272,8 +268,7 @@ int main()
         }
         rlutil::cls();
 
-    }
-    while(n!=0);
+    }while(n!=0);
 
     return 0;
 }
