@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std; //su uso es por cuestion de comodidad en este programa
-#include "rlutil.h"
+#include "rlutil.h" // libreria para uso de colores y pausas 
 #include "funciones.h"
 #include <ctime>
 #include <stdio.h>
@@ -12,13 +12,11 @@ using namespace std; //su uso es por cuestion de comodidad en este programa
 
 int main()
 {
-    //variables para el parcial
-    char Operadores[5] = {'+', '-', '*', '/', '%'};
-    int cantOperador[5] = {};
-
     //Variables:
     const int fil = 6;
     const int col = 6;
+    char Operadores[5] = {'+', '-', '*', '/', '%'};
+    int cantOperador[5] = {};
     int matriz[fil][col];
     char matrizChar[fil][col];
     bool matrizBool[fil][col];
