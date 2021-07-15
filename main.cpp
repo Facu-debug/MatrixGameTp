@@ -245,10 +245,7 @@ int main()
             cout << " Nombre del Equipo: 'Equipo del Canal Cultural' \n\n";
             cout << "Integrantes: \n";
             cout << "- Facundo Gabriel Amarilla \n";
-            cout << " Nro Legajo: 24461\n";
             cout << endl;
-            cout << "- Mariano Javier Gomez \n";
-            cout << " Nro Legajo: 25102\n";
             rlutil::anykey();
             break;
 
