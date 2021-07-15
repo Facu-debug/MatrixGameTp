@@ -8,7 +8,7 @@ using namespace std; //su uso es por cuestion de comodidad en este programa
 
 
 
-
+//ESTRUCTURA GENERAL: 
 
 int main()
 {
