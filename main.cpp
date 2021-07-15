@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std; //su uso es por cuestion de comodidad en este programa
 #include "rlutil.h"
 #include "funciones.h"
 #include <ctime>
