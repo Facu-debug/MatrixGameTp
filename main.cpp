@@ -239,6 +239,7 @@ int main()
             cout << " Nombre del Equipo: 'Equipo del Canal Cultural' \n\n";
             cout << "Integrantes: \n";
             cout << "- Facundo Gabriel Amarilla \n";
+            cout << "  ->Mail: facundogabriel91@gmail.com\n";
             cout << endl;
             rlutil::anykey();
             break;
