@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1624142453 source:c:\users\facu\desktop\utn tup\laboratorio\proyecto 0\juego\dado.cpp
+	<iostream>
+	"rlutil.h"
+	"dado.h"
+
+1571569938 c:\users\facu\desktop\utn tup\laboratorio\proyecto 0\juego\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1624140187 c:\users\facu\desktop\utn tup\laboratorio\proyecto 0\juego\dado.h
+
+1631059414 source:c:\users\facu\desktop\utn tup\laboratorio\proyecto 0\juego\funciones.cpp
+	<iostream>
+	"rlutil.h"
+	<ctime>
+	<stdlib.h>
+
+1631059663 source:c:\users\facu\desktop\utn tup\laboratorio\proyecto 0\juego\main.cpp
+	<iostream>
+	"rlutil.h"
+	"funciones.h"
+	<ctime>
+	<stdio.h>
+	<stdlib.h>
+
+1624659381 c:\users\facu\desktop\utn tup\laboratorio\proyecto 0\juego\funciones.h
+
+1631059413 source:c:\users\facu\desktop\utn tup\laboratorio\proyecto 0\juego\operaciones.cpp
+	<iostream>
+	"rlutil.h"
+	<ctime>
+	<stdlib.h>
+
