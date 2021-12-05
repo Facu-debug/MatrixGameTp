@@ -1,23 +1,24 @@
 #include <iostream>
-using namespace std; //su uso es por cuestion de comodidad en este programa
-#include "rlutil.h" // libreria para uso de colores y pausas 
+using namespace std;
+#include "rlutil.h"
 #include "funciones.h"
 #include <ctime>
 #include <stdio.h>
 #include <stdlib.h>
 
 
-//ESTRUCTURA GENERAL: 
+
+
 
 int main()
 {
-    setlocale(LC_ALL,"spanish");
-    
+    //variables para el parcial
+    char Operadores[5] = {'+', '-', '*', '/', '%'};
+    int cantOperador[5] = {};
+
     //Variables:
     const int fil = 6;
     const int col = 6;
-    char Operadores[5] = {'+', '-', '*', '/', '%'};
-    int cantOperador[5] = {};
     int matriz[fil][col];
     char matrizChar[fil][col];
     bool matrizBool[fil][col];
@@ -27,6 +28,7 @@ int main()
     char calcuVec[10][50];
     int rondas[10];
     int ptj[10];
+    setlocale(LC_ALL,"spanish");
 
     //Variables del juego:
     bool resultado;
@@ -83,7 +85,6 @@ int main()
             rlutil::anykey();
             ///mostrar las reglas
             reglas();
-
             /// Funciones de cargar matriz
             cargaMatriz (matriz, fil, col); /// funcion de carga matriz principal
             cargarMatrizChar (matrizChar, fil, col); /// funcion de carga de chars
@@ -123,6 +124,7 @@ int main()
                     cout << "Ingresar direccion a jugar: ";
                     cin >> direccion;
 
+                    //consigna de parcial cantOperadores
                     for(int i=0; i<5; i++)
                     {
                         if(operador_mat == Operadores[i])
@@ -135,8 +137,8 @@ int main()
                     resultado = Operacion (operador_mat, matriz, num_fila, num_col, direccion); //nos dice si la operacion suma o no puntos
                     operacionMatriz (matriz, matrizBool, num_fila, num_col, direccion, resultado, pilas, puntaje); //modifica la matriz del juego
                     posPuntaje(nomPtjMax, calcuVec, nombre, rondas, calculador, puntaje, cont, inicio, ptj); //carga los puntajes para estadisticas
+
                     cout << endl;
-                    
                     if(resultado)
                     {
                         cout << "Correcto! sumaste puntos en esta ronda... :D\n";
@@ -176,6 +178,7 @@ int main()
                     cout << "Ingresar direccion a jugar: ";
                     cin >> direccion;
 
+                    //consigna parcial cantOperadores
                     for(int i=0; i<5; i++)
                     {
                         if(operador_mat == Operadores[i])
@@ -212,9 +215,11 @@ int main()
                     rlutil::cls();
                 }
 
-            }while(pilas > 0);
+            }
+            while(pilas > 0);
 
-            //muestro resultados de partida:
+            //muestro las consignas de parcial
+
             mostrarRonda(nombre, puntaje, cantOperador);
             rlutil::anykey();
             rlutil::cls();
@@ -237,9 +242,9 @@ int main()
             cout << "  ------ Creado por: ------\n\n";
             rlutil::setColor(rlutil::WHITE);
             cout << " Nombre del Equipo: 'Equipo del Canal Cultural' \n\n";
-            cout << "Integrantes: \n";
+            cout << "Creador: \n";
             cout << "- Facundo Gabriel Amarilla \n";
-            cout << "  ->Mail: facundogabriel91@gmail.com\n";
+            cout << "  -> Mail: facundogabriel91@gmail.com\n";
             cout << endl;
             rlutil::anykey();
             break;
@@ -269,7 +274,8 @@ int main()
         }
         rlutil::cls();
 
-    }while(n!=0);
+    }
+    while(n!=0);
 
     return 0;
 }

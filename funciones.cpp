@@ -18,7 +18,7 @@ void presentacion(void) ///muetra presentacion
     cout << "Pulse cualquier tecla para Iniciar.\n";
     rlutil::anykey();
     rlutil::cls();
-};
+}
 
 //reglas
 void reglas(void) /// muestra las reglas
@@ -96,7 +96,7 @@ void cargaMatriz(int n[6][6], int f, int c) ///carga matriz numeros
             n[x][i] = (rand()%10);
         }
     }
-};
+}
 
 //matriz de char
 void cargarMatrizChar(char v[6][6], int f, int c) ///carga matriz char
@@ -109,7 +109,7 @@ void cargarMatrizChar(char v[6][6], int f, int c) ///carga matriz char
             v[x][i] = '-';
         }
     }
-};
+}
 
 //matriz de bool
 void cargarMatrizBool(bool bl[6][6], int f, int c) ///carga matriz bool
@@ -121,7 +121,7 @@ void cargarMatrizBool(bool bl[6][6], int f, int c) ///carga matriz bool
             bl[x][i] = true;
         }
     }
-};
+}
 
 //operacopn matriz
 ///funcion que se encarga de quitar las pos de la matriz que no se pueden usar mas
@@ -190,7 +190,7 @@ void operacionMatriz(int n[6][6], bool bl[6][6], int nf, int nc, int dir, bool r
         }
         break;
     }
-};
+}
 
 //mostrar matriz
 void mostrarMatriz(char ch[6][6], int n[6][6], bool bl[6][6]) /// carga y muestra matriz tras operacion
@@ -211,7 +211,7 @@ void mostrarMatriz(char ch[6][6], int n[6][6], bool bl[6][6]) /// carga y muestr
         }
         cout <<" |\n  -----------------------------------------------\n";
     };
-};
+}
 
 //posicion Puntajes
 void posPuntaje(char chp[10][50], char chc[10][50], char nom[], int rond[], char cal[], int ptj, int cont, int ini, int pt[])

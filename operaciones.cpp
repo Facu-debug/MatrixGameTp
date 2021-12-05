@@ -44,7 +44,7 @@ bool Operacion(char op, int n[6][6], int nf, int nc, int dir)
         break;
     }
     return r; // true si se cumpple condicion de juego , false si no
-};
+}
 
 //tipoDireccion SUMA
 bool tipoDireccionSuma(int n[6][6], int nf, int nc, int dir)
@@ -97,7 +97,8 @@ bool tipoDireccionSuma(int n[6][6], int nf, int nc, int dir)
         }
         break;
     }
-};
+}
+
 //tipoDireccion RESTA
 bool tipoDireccionResta(int n[6][6], int nf, int nc, int dir)
 {
@@ -149,7 +150,7 @@ bool tipoDireccionResta(int n[6][6], int nf, int nc, int dir)
         }
         break;
     }
-};
+}
 
 //tipoDireccion MUlTIPLICACION
 bool tipoDireccionMultiplicacion(int n[6][6], int nf, int nc, int dir)
@@ -202,7 +203,7 @@ bool tipoDireccionMultiplicacion(int n[6][6], int nf, int nc, int dir)
         }
         break;
     }
-};
+}
 
 //tipoDireccion DIVICION
 bool tipoDireccionDivicion(int n[6][6], int nf, int nc, int dir)
@@ -255,7 +256,7 @@ bool tipoDireccionDivicion(int n[6][6], int nf, int nc, int dir)
         }
         break;
     }
-};
+}
 
 //tipoDireccion RESTO
 bool tipoDireccionResto(int n[6][6], int nf, int nc, int dir)
@@ -308,4 +309,4 @@ bool tipoDireccionResto(int n[6][6], int nf, int nc, int dir)
         }
         break;
     }
-};
+}
