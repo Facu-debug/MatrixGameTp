@@ -1,6 +1,7 @@
 # MatrixGameTp
 Este es un juego matematico para consola realizado como trabajo practico de fin del primer curso de Laboratorio, en C++. para la UTN,
 usando unicamente Funciones.
+https://www.youtube.com/watch?v=a91pLOtvcc0
 
 Mathrix es un juego individual donde ponés a prueba tu destreza matemática. Consiste en
 una matriz de 6x6 que se completa con números del 0 al 9 ubicados aleatoriamente.
